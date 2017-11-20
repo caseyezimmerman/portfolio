@@ -1,0 +1,102 @@
+nav{
+	width:100vw;
+	/*float:left;*/
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	background-color:white;
+	
+}
+
+/*.container-fluid{
+	background: url("../images/laptop.png")center no-repeat;
+	background-size:cover;
+	width:90%;
+
+}*/
+
+.bailey{
+	margin-top:-150px;
+	margin-left:900px;
+	border:10px solid white;
+	border-radius:50%;
+	position:absolute;
+}
+
+#project{
+	background-color: #ECFAFF;
+	width:100vw;
+	padding-bottom:50px;
+}
+
+.nav-wrapper{
+	color:black;
+}
+
+a.brand-logo, a.about, a.portfolio, a.contact{
+	margin-left:25px;
+	color:black;
+	font-family: 'Barlow Semi Condensed';
+	font-size:20px;
+}
+
+a.brand-logo{
+	font-size:25px;
+}
+
+.cover-photo img{
+	width:100vw;
+	display: block;
+	margin:auto;
+	margin-bottom:20px;
+	/*height:400px;*/
+}
+
+
+
+.about-head{
+	font-size:40px;
+	text-align:center;
+	margin-top:80px;
+}
+
+#about-me, #project, #contact{
+	font-family:'Barlow Semi Condensed';
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+.circle-circle {
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  padding:0px;
+  margin-top:10px;
+  margin-bottom:15px;
+  margin-right:35px;
+  background: radial-gradient(circle at 1px 1px, lightgrey, #000);
+}
+
+#contact h4{
+	/*margin:30px;*/
+	font-weight:bolder;
+}
+
+#contact-pictures img{
+	margin:10px;
+	background-color: #ECFAFF;
+	/*width:100vw;*/
+}
+
+/*.gmail-icon, .resume-icon, .linkedin-icon, .github-icon{
+	border:2px solid white;
+	border-radius:50%;
+	background-color:lightblue;
+	padding:10px;
+}*/
+
+.seperator{
+	margin-bottom:20px;
+}
+
+
