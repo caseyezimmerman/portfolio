@@ -21,6 +21,7 @@ nav{
 	border:10px solid white;
 	border-radius:50%;
 	position:absolute;
+	z-index: 2;
 }
 
 #project{
@@ -52,17 +53,28 @@ a.brand-logo{
 	/*height:400px;*/
 }
 
-
-
-.about-head{
-	font-size:40px;
-	text-align:center;
-	margin-top:80px;
+.parallax {
+    background: url("../images/coding.jpeg") no-repeat center;
+    min-height: 750px;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+
+
+#about-head{
+	font-size:40px;
+	text-align:left;
+	padding-top:80px;
+	/* background-color: #E0FAFF; */
+	width: 100vw;
+}
+
+
 
 #about-me, #project, #contact{
 	font-family:'Barlow Semi Condensed';
-	font-size:18px;
+	font-size:20px;
 	margin-bottom:20px;
 }
 
@@ -77,16 +89,36 @@ a.brand-logo{
   background: radial-gradient(circle at 1px 1px, lightgrey, #000);
 }
 
+#contact{
+	background-color:#ECFAFF ;
+	width: 100vw;
+}
+
 #contact h4{
 	/*margin:30px;*/
 	font-weight:bolder;
+
 }
 
 #contact-pictures img{
 	margin:10px;
-	background-color: #ECFAFF;
 	/*width:100vw;*/
 }
+
+.resume-icon:hover { 
+	transform: scale(1.2); 
+}
+.gmail-icon:hover { 
+	transform: scale(1.2); 
+}
+.linkedin-icon:hover { 
+	transform: scale(1.2); 
+}
+.github-icon:hover { 
+	transform: scale(1.2); 
+}
+
+
 
 /*.gmail-icon, .resume-icon, .linkedin-icon, .github-icon{
 	border:2px solid white;
@@ -95,8 +127,25 @@ a.brand-logo{
 	padding:10px;
 }*/
 
-.seperator{
-	margin-bottom:20px;
+.seperator1, .seperator2, .seperator3{
+	padding-bottom:20px;
+}
+
+.seperator2{
+	/* background-color:#ECFAFF ; */
+}
+
+#class-projects{
+	font-family:'Barlow Semi Condensed';
+}
+
+#class-projects img{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#class-projects a{
+	margin-bottom: 20px;
 }
 
 
