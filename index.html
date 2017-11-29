@@ -11,12 +11,12 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<!-- <script type="text/javascript" src="materialize/js/materialize.min.js"></script> -->
 	<title>My Portfolio</title>
 </head>
 <body>
 
-  <nav>
+ <!--  <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo left">Casey Zimmerman</a>
       <ul id="nav" class="right">
@@ -25,8 +25,54 @@
         <li><a href="#contact" class="contact">Contact</a></li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
+
+
+ <!--  <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="brand-logo" href="#">Casey Zimmerman</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="about" href="#about-me">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="portfolio" href="#project">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="contact" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
 		
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Casey Zimmerman</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="about"><a href="#about-me">About <span class="sr-only">(current)</span></a></li>
+        <li class="portfolio"><a href="#project">Projects</a></li>
+        <li class="contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>		
 
 <!-- <div class="cover-photo">
 	<img src="images/coding.jpeg">
@@ -39,18 +85,18 @@
 			<div class="col-sm-12" id= "about-head">
 				<div class="col-sm-10 col-sm-offset-1" id="about-me">
 					<div><h5>Hi, I'm Casey</h5></div>
-					<p>I am a full-stack developer living in Atlanta, Georgia. I am from Marietta, GA and went to school at the University of Mississippi where I got my Bachelors of Science in Exercise Science. After graduating I moved back to Atlanta and worked for my dad as an office manager. After working there for a year I knew that I needed to make a career change. I love working in a fast paced environment and constantly learning new things, so I thought software development would be the perfect challenge for me. </p>
+					<p>I am a full-stack developer living in Atlanta, Georgia. I am from Marietta, GA and went to school at the University of Mississippi where I got my Bachelors of Science in Exercise Science. After graduating I moved back to Atlanta and worked at a small accounting firm as an office manager. After working there for a year I knew that I needed to make a career change. I love working in a fast paced environment and constantly learning new things, so I thought software development would be the perfect challenge for me. </p>
 					<p></p>
-					<p>I started taking some classes on Coursera and Udemy and I instantly loved it. I decided that programming was something that I needed to persue so I decided to go to a coding bootcamp. I graduated from DigitCrafts' 4 month immersive coding bootcamp in January 2018.</p>
+					<p>I started taking some classes on Coursera and Udemy and I instantly loved it. I decided that programming was something that I needed to persue so I decided to attend a coding bootcamp. I will be graduating from DigitCrafts' 4 month immersive coding bootcamp in January 2018.</p>
 				</div>
 			</div>
-			<div class="col-sm-12 seperator1">
+			<!-- <div class="col-sm-12 seperator1">
 				<div class="circle-circle col-sm-4 col-sm-offset-5"></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
-			</div>
+			</div> -->
 			<div class="col-sm-12" id="project">
 				<div class="col-sm-12 text-center">
 					<h4>Featured Project: City Runner</h4>
@@ -60,59 +106,45 @@
 					<img src="images/cityrunner.png">
 				</div>
 			</div>
-			<div class="col-sm-12 seperator2">
+			<!-- <div class="col-sm-12 seperator2">
 				<div class="circle-circle col-sm-4 col-sm-offset-5"></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
-			</div>
+			</div> -->
 			<div class="col-sm-12 text-center" id="class-projects">
 				<h4>Projects</h4>
-				<div class="col-sm-5 col-sm-offset-1 text-center">
-					<p>Soccer game using pygame</p>
-				</div>
-				<div class="col-sm-5 text-center">
-					<p>Blackjack game using javascript</p>
-				</div>
 				<div class="col-sm-5 col-sm-offset-1">
-					<img src="images/pygame.png">
-				</div>
-				<div class="col-sm-5">
-					<img src="images/blackjack.png">
-				</div>
-				<div class="col-sm-5 col-sm-offset-1 text-center">
+					<p>Soccer game using pygame</p>
+					<img src="images/pygame.png"><br />
 					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/SoccerGame" target="_blank">View Code</a></a>
 				</div>
-				<div class="col-sm-5 text-center">
-					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/BlackJack" target="_blank">View Code</a>				
-				</div>
-				<div class="col-sm-5 col-sm-offset-1 text-center">
-					<p>Soccer game using pygame</p>
-				</div>
-				<div class="col-sm-5 text-center">
+				<div class="col-sm-5">
 					<p>Blackjack game using javascript</p>
+					<img src="images/blackjack.png"><br />
+					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/BlackJack" target="_blank">View Code</a>
 				</div>
 				<div class="col-sm-5 col-sm-offset-1">
-					<img src="images/pygame.png">
-				</div>
-				<div class="col-sm-5">
-					<img src="images/blackjack.png">
-				</div>
-				<div class="col-sm-5 col-sm-offset-1 text-center">
+					<p>Soccer game using pygame</p>
+					<img src="images/pygame.png"><br />
 					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/SoccerGame" target="_blank">View Code</a></a>
 				</div>
-				<div class="col-sm-5 text-center">
-					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/BlackJack" target="_blank">View Code</a>				
+				<div class="col-sm-5">
+					<p>Blackjack game using javascript</p>
+					<img src="images/blackjack.png"><br />
+					<a class="waves-effect waves-light btn" href="https://github.com/caseyezimmerman/BlackJack" target="_blank">View Code</a>
 				</div>
+
+
 			</div>
-			<div class="col-sm-12 seperator3">
+			<!-- <div class="col-sm-12 seperator3">
 				<div class="circle-circle col-sm-4 col-sm-offset-5"></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
 				<div class="circle-circle col-sm-1 "></div>
-			</div>
+			</div> -->
 			<div class="col-sm-12 text-center" id="contact">
 				<div class="col-sm-10 col-sm-offset-1">
 					<h4>SAY</h4>

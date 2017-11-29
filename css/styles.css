@@ -1,12 +1,14 @@
 nav{
 	width:100vw;
-	/*float:left;*/
+	float:left;
 	margin:0px;
 	padding:0px;
 	text-align:left;
 	background-color:white;
 	
 }
+
+
 
 /*.container-fluid{
 	background: url("../images/laptop.png")center no-repeat;
@@ -16,16 +18,19 @@ nav{
 }*/
 
 .bailey{
-	margin-top:-150px;
-	margin-left:900px;
+	/* margin-top:-150px; */
+	/* margin-left:900px; */
+	bottom:0;
+	left: 0;
 	border:10px solid white;
 	border-radius:50%;
-	position:absolute;
-	z-index: 2;
+	position:fixed;
+	z-index: 0;
 }
 
 #project{
 	background-color: #ECFAFF;
+	z-index: -1;
 	width:100vw;
 	padding-bottom:50px;
 }
@@ -34,7 +39,7 @@ nav{
 	color:black;
 }
 
-a.brand-logo, a.about, a.portfolio, a.contact{
+.navbar-brand, .about, .portfolio, .contact{
 	margin-left:25px;
 	color:black;
 	font-family: 'Barlow Semi Condensed';
@@ -92,6 +97,7 @@ a.brand-logo{
 #contact{
 	background-color:#ECFAFF ;
 	width: 100vw;
+	z-index: -1;
 }
 
 #contact h4{
