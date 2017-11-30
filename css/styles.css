@@ -16,6 +16,30 @@ nav{
 	width:90%;
 
 }*/
+@media screen and (max-width : 800px){
+	img.bailey{
+		height: 75px;
+		width: 75px;
+		border:1px solid white;
+	}
+}
+
+@media screen and (max-width : 1056px) and (min-width : 750px){
+	img.pygame{
+		height: 154px;
+		width: 300px;
+		border:1px solid white;
+	}
+}
+
+@media screen and (max-width : 1056px) and (min-width : 750px){
+	img.blackjack{
+		height: 154px;
+		width: 300px;
+		border:1px solid white;
+	}
+}
+
 
 .bailey{
 	/* margin-top:-150px; */
@@ -58,11 +82,23 @@ a.brand-logo{
 	/*height:400px;*/
 }
 
-.parallax {
-    background: url("../images/coding.jpeg") no-repeat center;
-    min-height: 750px;
-    background-attachment: fixed;
-    background-size: cover;
+@media screen and (min-width : 800px){
+	.parallax {
+	    background: url("../images/coding.jpeg") no-repeat center;
+	    min-height: 750px;
+	    background-attachment: fixed;
+	    background-size: cover;
+	}
+}
+
+@media screen and (max-width : 800px){
+	.background-image{
+		background: url("../images/coding.jpeg") no-repeat center;
+		min-height: 400px;
+		background-size: cover;
+		margin-bottom: 0px;
+
+	}
 }
 
 
