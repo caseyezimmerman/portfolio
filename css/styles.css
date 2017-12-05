@@ -8,6 +8,69 @@ nav{
 	
 }
 
+.name{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	margin-top: 200px;
+}
+
+.desc{
+	text-align:center;
+	font-size: 50px;
+	font-family: 'News Cycle', sans-serif;
+	margin-top: 10px;
+}
+
+.blah{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+#apc{
+	text-align: center;
+}
+#apc span{
+	margin: 10px;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	/* visibility: hidden; */
+}
+
+/* #learn-more{
+	height: 40px;
+	width: 35px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin:auto;
+	cursor: pointer;
+} */
+
+i {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    position:  relative;
+    left:  50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.down {
+    transform: rotate(45deg);
+    
+}
+
+
+/* #atlanta{
+	background: url("../images/atlanta2.jpeg") no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: -1;
+} */
+
 
 
 /*.container-fluid{
@@ -105,24 +168,25 @@ a.brand-logo{
 	/*height:400px;*/
 }
 
-@media screen and (min-width : 800px){
+/* @media screen and (min-width : 800px){
 	.parallax {
-	    background: url("../images/coding.jpeg") no-repeat center;
+	    background: url("../images/homeback.jpeg") no-repeat center;
 	    min-height: 850px;
 	    background-attachment: fixed;
 	    background-size: cover;
 	}
-}
+} */
 
-@media screen and (max-width : 800px){
+/* @media screen and (max-width : 800px){ */
 	.background-image{
-		background: url("../images/coding.jpeg") no-repeat center;
-		min-height: 400px;
+		background: url("../images/homeback.jpeg") no-repeat center;
+		height:100vh;
 		background-size: cover;
 		margin-bottom: 0px;
+		z-index: -1
 
 	}
-}
+/* } */
 
 
 
