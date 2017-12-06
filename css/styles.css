@@ -1,3 +1,7 @@
+.container-fluid{
+	padding-left: 0px;
+}
+
 nav{
 	width:100vw;
 	float:left;
@@ -26,6 +30,7 @@ nav{
 	text-align: center;
 	font-family: 'Satisfy', cursive;
 	font-size: 25px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width : 591px){
@@ -84,12 +89,17 @@ i {
 }
 
 
-/* #atlanta{
-	background: url("../images/atlanta2.jpeg") no-repeat;
+#atlanta{
+	background: url("../images/piedmont.jpeg") no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 	z-index: -1;
-} */
+	opacity: 0.36;
+	position: absolute;
+	/* left: 0; */
+	/* bottom: 0; */
+	width: 100vw;
+}
 
 
 
@@ -148,7 +158,7 @@ i {
 .bailey{
 	margin-right: 40px;
 	float: left;
-	border:1px solid lightgrey;
+	border:1px solid white;
 	border-radius:50%;
 	
 }
@@ -218,8 +228,9 @@ a.brand-logo{
 
 #about-me, #project, #contact{
 	font-family:'Barlow Semi Condensed';
-	font-size:20px;
+	font-size:23px;
 	margin-bottom:20px;
+	opacity: 1;
 
 }
 
