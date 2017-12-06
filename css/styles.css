@@ -109,6 +109,14 @@ i {
 }
 
 
+@media screen and (min-width : 850px){
+	#height{
+		height: 100vh;
+		
+	}
+}
+
+
 
 /*.container-fluid{
 	background: url("../images/laptop.png")center no-repeat;
