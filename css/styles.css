@@ -17,7 +17,7 @@ nav{
 
 .desc{
 	text-align:center;
-	font-size: 50px;
+	font-size: 70px;
 	font-family: 'News Cycle', sans-serif;
 	margin-top: 10px;
 }
@@ -27,6 +27,26 @@ nav{
 	font-family: 'Satisfy', cursive;
 	font-size: 25px;
 }
+
+@media screen and (max-width : 591px){
+	.desc{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width : 591px){
+	.name{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width : 591px){
+	.blah{
+		font-size: 15px;
+	}
+}
+
+
 #apc{
 	text-align: center;
 }
