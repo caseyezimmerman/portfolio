@@ -261,7 +261,9 @@ a.brand-logo{
 
 }
 
-
+.navbar > .container-fluid .navbar-brand{
+	margin-left: -5 !important;
+}
 
 .circle-circle {
   height:10px;
@@ -396,6 +398,14 @@ a.brand-logo{
 	height: 100%;
 } */
 
+.contact-buttons{
+	margin:15px 8px;
 
+}
+
+.contact-buttons a{
+	text-decoration: none;
+	color: white;
+}
 
 

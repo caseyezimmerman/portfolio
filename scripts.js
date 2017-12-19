@@ -13,6 +13,8 @@ $(document).ready(function(){
     $(window).resize(function(){
     	$("#atlanta").css({"height": $("#height").height()});
     })
+
+    $('.contact-buttons').addClass('animated bounceOutLeft');
     
     
 		
