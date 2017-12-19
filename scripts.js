@@ -14,6 +14,7 @@ $(document).ready(function(){
     	$("#atlanta").css({"height": $("#height").height()});
     })
     
+    
 		
 
 });
