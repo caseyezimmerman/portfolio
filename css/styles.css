@@ -361,13 +361,15 @@ a.brand-logo{
 }
 
 .card{
-	width: 80%;
-	height: 170px;
+	/* margin-right: 0; */
+	display: inline;
+	width: 65%;
+	height: 200px;
 	margin: 0 auto 20px;
 
 }
 .card-image img{
-	height: 170px;
+	height: 200px;
 }
 
 .pic-wrap{
@@ -407,5 +409,15 @@ a.brand-logo{
 	text-decoration: none;
 	color: white;
 }
+
+.cards-container {
+  column-break-inside: avoid;
+}
+.layout {
+	/* width: 250px; */
+    display: inline-block;
+    overflow: visible;
+  }
+
 
 
