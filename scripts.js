@@ -14,7 +14,7 @@ $(document).ready(function(){
     	$("#atlanta").css({"height": $("#height").height()});
     })
 
-    $('.contact-buttons').addClass('animated bounceOutLeft');
+    // $('.contact-buttons').addClass('animated bounceOutLeft');
     
     
 		
