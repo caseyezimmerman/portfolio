@@ -2,6 +2,9 @@
 	padding-left: 0px;
 }
 
+.col-sm-12{
+	padding: 0px;
+}
 nav{
 	width:100vw;
 	float:left;
@@ -189,7 +192,7 @@ img.blackjack:hover{
 }
 
 #project{
-	/* background-color: #ECFAFF; */
+	background-color: #ECFAFF;
 	/* z-index: -1; */
 	width:100vw;
 	padding-bottom:50px;
@@ -254,7 +257,7 @@ a.brand-logo{
 
 
 #about-me, #project, #contact{
-	font-family:'Barlow Semi Condensed';
+	font-family:'Open Sans Condensed';
 	font-size:23px;
 	margin-bottom:20px;
 	opacity: 1;
@@ -337,8 +340,9 @@ a.brand-logo{
 }
 
 .projects{
-	font-family:'Barlow Semi Condensed';
+	font-family:'Open Sans Condensed';
 	font-size: 50px;
+	margin-top: 20px;
 }
 
 #project-box{
@@ -418,6 +422,77 @@ a.brand-logo{
     display: inline-block;
     overflow: visible;
   }
+
+.project-image, .project-image2, .project-image3{
+	width: 110%;
+	height: 350px;
+}
+
+.project-text{
+	margin-top: 10px;
+	font-size: 23px;
+	font-family:'Open Sans Condensed';
+	line-height: 32px;
+}
+
+.project-title{
+	font-size: 45px;
+	font-family:'Open Sans Condensed';
+	font-weight: bolder;
+	margin-bottom: 15px
+}
+
+.image-border{
+	border-bottom: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+}
+
+.icon-image{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	font-size: 25px;
+	font-family: Open Sans Condensed;
+}
+
+.right-image-border{
+	border-bottom: 2px solid lightgrey;
+}
+
+.images-icon{
+	margin-top: 18px;
+}
+
+.bottom-image-border{
+	border-right: 2px solid lightgrey;
+}
+
+#skills-title{
+	font-family: Open Sans Condensed;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.text-content{	
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity 500ms;
+  position: relative;
+  bottom: 350px;
+  width: 110%;
+  /* height: 350px; */
+}
+
+.hover-text:hover span.text-content{
+	opacity: 1;
+	/* background-color: black; */
+}
+
+
 
 
 

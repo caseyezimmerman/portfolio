@@ -1,0 +1,30 @@
+.image-border{
+	border-bottom: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+}
+
+.icon-image{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	font-size: 25px;
+	font-family: Open Sans Condensed;
+}
+
+.right-image-border{
+	border-bottom: 2px solid lightgrey;
+}
+
+.images-icon{
+	margin-top: 18px;
+}
+
+.bottom-image-border{
+	border-right: 2px solid lightgrey;
+}
+
+#skills-title{
+	font-family: Open Sans Condensed;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+

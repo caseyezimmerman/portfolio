@@ -16,7 +16,12 @@ $(document).ready(function(){
 
     // $('.contact-buttons').addClass('animated bounceOutLeft');
     
-    
+    // $('.project-image').click(function(){
+    //   $('.project-image').fadeToggle();      
+    // });
+    // $('.project-image').mouseout(function () {
+    //       $('.project-image').show();      
+    // });
 		
 
 });
