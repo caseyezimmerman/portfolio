@@ -273,13 +273,16 @@ a{
 	height: 35px;
 	background-color: white;
 	margin: 2px;
+	width: 80px;
 
 }
 
 .text{
 	margin-top: 3px;
 	font-family: "Open Sans Condensed";
-	font-size: 18px;
+	font-size: 17px;
+	overflow: scroll;
+	height: 200px;
 }
 
 #height{
@@ -289,17 +292,19 @@ a{
 }
 
 @media screen and (max-width: 995px){
+	#project-box{
+		height: 200px;
+		overflow: scroll;
+	}
+}
+
+@media screen and (max-width: 995px){
 	#about-me{
 		font-size: 14px;
 		height: 300px;
 	}
 }
 
-@media screen and (max-width: 1030px){
-	.text{
-		font-size: 10px;
-	}
-}
 
 @media screen and (max-width: 995px){
 	#about-head{
@@ -309,7 +314,7 @@ a{
 
 @media screen and (max-width: 995px){
 	.project-image, .project-image2, .project-image3{
-		height: 200px;
+		height: 150px;
 	}
 }
 
@@ -332,11 +337,19 @@ a{
 	}
 }
 
-@media screen and (max-width: 995px){
+@media screen and (max-width: 652px){
 	.show-me{
 		font-size:10px;
 	}
 }
+
+@media screen and (max-width: 652px){
+	.icon-image{
+		font-size:14px;
+	}
+}
+
+
 
 
 
