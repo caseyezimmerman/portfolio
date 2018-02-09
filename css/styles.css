@@ -5,23 +5,13 @@
 .col-sm-12{
 	padding: 0px;
 }
-nav{
-	width:100vw;
-	float:left;
-	margin:0px;
-	padding:0px;
-	text-align:left;
-	
-	
-}
 
 .name{
 	text-align: center;
 	font-family: 'Satisfy', cursive;
 	font-size: 25px;
 	margin-top: 200px;
-	z-index: 1000;
-	
+	z-index: 1000;	
 }
 
 .desc{
@@ -29,7 +19,6 @@ nav{
 	font-size: 70px;
 	font-family: 'News Cycle', sans-serif;
 	margin-top: 10px;
-
 }
 
 .blah{
@@ -61,6 +50,7 @@ nav{
 #apc{
 	text-align: center;
 }
+
 #apc span{
 	margin: 10px;
 	font-family: 'News Cycle', sans-serif;
@@ -68,14 +58,6 @@ nav{
 	/* visibility: hidden; */
 }
 
-/* #learn-more{
-	height: 40px;
-	width: 35px;
-	border: 1px solid black;
-	border-radius: 10px;
-	margin:auto;
-	cursor: pointer;
-} */
 
 i {
     border: solid black;
@@ -83,15 +65,13 @@ i {
     display: inline-block;
     padding: 10px;
     position:  relative;
-    left:  50%;
+    left: 50%;
     cursor: pointer;
     margin-bottom: 20px;
-
 }
 
 .down {
-    transform: rotate(45deg);
-    
+    transform: rotate(45deg);    
 }
 
 
@@ -115,134 +95,22 @@ i {
 }
 
 
-@media screen and (min-width : 850px){
+/* @media screen and (min-width : 850px){
 	#height{
 		height: 100vh;
 		
 	}
-}
-
-
-
-/*.container-fluid{
-	background: url("../images/laptop.png")center no-repeat;
-	background-size:cover;
-	width:90%;
-
-}*/
-@media screen and (max-width : 800px){
-	img.bailey{
-		height: 75px;
-		width: 75px;
-		border:1px solid white;
-	}
-}
-
-@media only screen and (max-width : 1056px) and (min-width : 756px){
-	img.pygame{
-		height: 154px;
-		width: 300px;
-		border:1px solid white;
-	}
-}
-
-@media only screen and (max-width : 1056px) and (min-width : 756px){
-	img.blackjack{
-		height: 154px;
-		width: 300px;
-		border:1px solid white;
-	}
-}
-
-img.pygame:hover{
-	opacity: 0.6;
-}
-img.blackjack:hover{
-	opacity: 0.6;
-}
-
-
-
-/* @media screen and (max-width : 488px){
-	img.blackjack{
-		height: 103px;
-		width: 200px;
-		
-	}
 } */
 
 
-.project-text{
-	margin-bottom: 10px;
-}
-
-#project img{
-	margin-bottom: 20px;
-	width: 100%;
-	height: 100%;
+.background-image{
+	background: url("../images/homeback.jpeg") no-repeat center;
+	height:100vh;
+	background-size: cover;
+	margin-bottom: 0px;
+	z-index: -1
 
 }
-
-.bailey{
-	margin-right: 40px;
-	float: left;
-	border:1px solid white;
-	border-radius:50%;
-	
-}
-
-#project{
-	background-color: #ECFAFF;
-	/* z-index: -1; */
-	width:100vw;
-	padding-bottom:50px;
-}
-
-.nav-wrapper{
-	color:black;
-}
-
-.navbar-brand, .about, .portfolio, .contact{
-	margin-left:25px;
-	color:black;
-	font-family: 'Barlow Semi Condensed';
-	font-size:20px;
-}
-
-a.brand-logo{
-	font-size:25px;
-}
-
-.cover-photo img{
-	width:100vw;
-	display: block;
-	margin:auto;
-	margin-bottom:20px;
-	/*height:400px;*/
-}
-
-/* @media screen and (min-width : 800px){
-	.parallax {
-	    background: url("../images/homeback.jpeg") no-repeat center;
-	    min-height: 850px;
-	    background-attachment: fixed;
-	    background-size: cover;
-	    z-index: -1;
-
-	}
-} */
-
-/* @media screen and (max-width : 800px){ */
-	.background-image{
-		background: url("../images/homeback.jpeg") no-repeat center;
-		height:100vh;
-		background-size: cover;
-		margin-bottom: 0px;
-		z-index: -1
-
-	}
-/* } */
-
 
 
 #about-head{
@@ -256,44 +124,28 @@ a.brand-logo{
 
 
 
-#about-me, #project, #contact{
+#about-me, #contact{
 	font-family:'Open Sans Condensed';
 	font-size:23px;
-	margin-bottom:20px;
+	/* margin-bottom:20px; */
 	opacity: 1;
 
 }
 
-.navbar > .container-fluid .navbar-brand{
-	margin-left: -5 !important;
-}
 
-.circle-circle {
-  height:10px;
-  width:10px;
-  border-radius:50%;
-  padding:0px;
-  margin-top:10px;
-  margin-bottom:15px;
-  margin-right:35px;
-  background: radial-gradient(circle at 1px 1px, lightgrey, #000);
-}
+
+
 
 #contact{
-	/* background-color:#ECFAFF ; */
 	width: 100vw;
-	/* z-index: -1; */
 }
 
 #contact h4{
-	/*margin:30px;*/
 	font-weight:bolder;
-
 }
 
 #contact-pictures img{
 	margin:10px;
-	/*width:100vw;*/
 }
 
 .resume-icon:hover { 
@@ -310,103 +162,15 @@ a.brand-logo{
 }
 
 
-
-/*.gmail-icon, .resume-icon, .linkedin-icon, .github-icon{
-	border:2px solid white;
-	border-radius:50%;
-	background-color:lightblue;
-	padding:10px;
-}*/
-
-.seperator1, .seperator2, .seperator3{
-	padding-bottom:20px;
-}
-
-.seperator2{
-	/* background-color:#ECFAFF ; */
-}
-
-#class-projects{
-	font-family:'Barlow Semi Condensed';
-}
-
-#class-projects img{
-	display: inline-block;
-	margin-bottom: 10px;
-}
-
-#class-projects a{
-	margin-bottom: 20px;
-}
-
 .projects{
 	font-family:'Open Sans Condensed';
 	font-size: 50px;
 	margin-top: 20px;
 }
 
-#project-box{
-	height: 250px;
-	border: 1px solid black;
-}
-
-#city img{
-	height: 100%;
-}
-
-.py-text{
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-.bj-text{
-	font-size: 20px;
-	margin-top: 10px;
-}
-
-.card{
-	/* margin-right: 0; */
-	display: inline;
-	width: 65%;
-	height: 200px;
-	margin: 0 auto 20px;
-
-}
-.card-image img{
-	height: 200px;
-}
-
-.pic-wrap{
-	border: 1px solid transparent;
-	box-shadow: 7px 6px 20px -4px rgba(0,0,0,0.75);
-}
-
-.title, .git{
-	font-family:'Barlow Semi Condensed';
-}
-
-.title{
-	font-size: 30px;
-	margin-top: -10px;
-}
-.git{
-	color: teal;
-	overflow: scroll;
-}
-
-.card-content{
-	overflow: scroll;
-}
-
-/* #bg{
-	background: url('../images/8.jpg');
-	width: 100%;
-	height: 100%;
-} */
 
 .contact-buttons{
 	margin:15px 8px;
-
 }
 
 .contact-buttons a{
@@ -414,18 +178,15 @@ a.brand-logo{
 	color: white;
 }
 
-.cards-container {
-  column-break-inside: avoid;
+#project-page{
+	margin-top: 0px;
 }
-.layout {
-	/* width: 250px; */
-    display: inline-block;
-    overflow: visible;
-  }
 
 .project-image, .project-image2, .project-image3{
 	width: 110%;
 	height: 350px;
+	/* box-shadow: 9px 9px 17px -6px rgba(0,0,0,0.75); */
+	box-shadow: 9px 9px 39px -6px rgba(0,0,0,0.75);
 }
 
 .project-text{
@@ -521,6 +282,61 @@ a{
 	font-size: 18px;
 }
 
+#height{
+	border: 1px solid black;
+	/* height: 300px; */
+	overflow: scroll;
+}
+
+@media screen and (max-width: 995px){
+	#about-me{
+		font-size: 14px;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 1030px){
+	.text{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	#about-head{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	.project-image, .project-image2, .project-image3{
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	.project-text{
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	.project-title{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	.images-icon{
+		height:30px;
+	}
+}
+
+@media screen and (max-width: 995px){
+	.show-me{
+		font-size:10px;
+	}
+}
 
 
 
