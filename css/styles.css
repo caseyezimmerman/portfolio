@@ -430,14 +430,14 @@ a.brand-logo{
 
 .project-text{
 	margin-top: 10px;
-	font-size: 23px;
-	font-family:'Open Sans Condensed';
+	font-size: 19px;
+	font-family: 'Lato';
 	line-height: 32px;
 }
 
 .project-title{
 	font-size: 45px;
-	font-family:'Open Sans Condensed';
+	font-family:'Lato';
 	font-weight: bolder;
 	margin-bottom: 15px
 }
@@ -449,7 +449,7 @@ a.brand-logo{
 
 .icon-image{
 	margin-top: 20px;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	font-size: 25px;
 	font-family: Open Sans Condensed;
 }
@@ -491,6 +491,36 @@ a.brand-logo{
 	opacity: 1;
 	/* background-color: black; */
 }
+
+a{
+	margin-top: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-bar{
+	position: sticky;
+	top: 8px;
+	margin-bottom: 10px;
+	z-index: 3;
+
+}
+
+#about-nav, #skills-nav, #project-nav, #contact-nav{
+	border: 2px solid lightblue;
+	border-radius: 20px;
+	height: 35px;
+	background-color: white;
+	margin: 2px;
+
+}
+
+.text{
+	margin-top: 3px;
+	font-family: "Open Sans Condensed";
+	font-size: 18px;
+}
+
 
 
 

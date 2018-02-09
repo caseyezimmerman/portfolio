@@ -5,6 +5,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|News+Cycle|Satisfy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Athiti|Nanum+Gothic|Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal|Buda:300|Lato:100|Overlock|Ruluko" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   	<!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,9 +24,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default grey lighten-3">
+<!-- <nav class="navbar navbar-default grey lighten-3">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -34,40 +35,59 @@
       </button>
       <a class="navbar-brand" href="index.html">Home</a>
     </div>
+  </div>
+</nav> -->
+<div class="container-fluid nav-bar">
+  <div class="row">
+    <div class="col s12">
+      <div id="contact-nav" class="col s1 right center">
+        <a href="#contact"><div class="text">Contact</div></a>
+      </div>
+      <div id="skills-nav" class="col s1 right center">
+        <a href="#skills"><div class="text">Skills</div></a>
+      </div>
+      <div id="project-nav" class="col s1 right center">
+        <a href="#project-page"><div class="text">Projects</div></a>
+      </div>
+      <div id="about-nav" class="col s1 right center">
+        <a href="#about-me"><div class="text">About Me</div></a>
+      </div>
+    </div>
+  </div>
+</div>
 
-  </div><!-- /.container-fluid -->
-</nav>
 
 <div class="container-fluid" id="height">
   <div class="row">
     <!-- <div id="atlanta"></div> -->
     <div class="col-sm-12">
         <!-- <img class="bailey" src="images/bailey.png"> -->
-        <div class="col s4">
+        <div class="col s4 center">
           <img src="images/beach-bailey.jpg" />
         </div>
-        <div id="about-me" class="col s8">
+        <div id="about-me" class="col s7 offset-s1">
 
           <div id="about-head">Hi, I'm Casey</div>
-          <p>I am a full-stack developer living in Atlanta, Georgia. I am from Marietta, GA and went to school at the University of Mississippi where I got my Bachelors of Science in Exercise Science. After graduating I moved back to Atlanta and worked at a small accounting firm as an office manager. After working there for a year I knew that I needed to make a career change. I love working in a fast paced environment and constantly learning new things, so I thought software development would be the perfect challenge for me. </p>
+          <p>I am a full-stack developer living in Atlanta, Georgia. I am from Marietta, GA and attended school at the University of Mississippi where I got my Bachelors of Science in Exercise Science. After graduating, I moved back to Atlanta and worked at a small accounting firm as an office manager. After working there for a year I knew that I needed to make a career change. I love working in a fast paced environment and being able to constantly learn new things every day, so I thought software development would be the perfect challenge for me. </p>
           <p></p>
-          <p>I started taking some classes on Coursera and Udemy and I instantly loved it. I decided that programming was something that I needed to persue so I decided to attend a coding bootcamp. I will be graduating from DigitCrafts' 4 month immersive coding bootcamp in January 2018.</p>
+          <p></p>
+          <p>Per my brother's recomendation, I started taking some classes on Coursera and Udemy and I instantly fell in love with it. I decided that programming was something that I needed to persue so I decided to face the scary, yet exciting challenge of a coding bootcamp. I have recently graduated from DigitCrafts' 4 month immersive coding bootcamp and I wouldn't change it for the world. Now I am able to build awesome things!</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="grey lighten-4">
+<div id="project-page" class="grey lighten-4">
 <div class="projects center">Projects</div>
 
   <div class="container-fluid">
     <div class="row">
       <div class= "col s12">
-        <div class="col s8 project-text">
+        <div class="col s5 offset-s1 project-text">
           <p class="project-title">Trackr</p>
             A React Native mobile app that is a spin off of City Runner. This app accesses your current location and tracks the distance, time, and calories of your run. 
         </div>
-        <div class= "col s3 offset-s1 hover-text">
+        <div class= "col s4 offset-s1 hover-text">
           <img class="project-image" src="trackr.png" />
           <span class="text-content">Text Here</span>
         </div>
@@ -78,10 +98,10 @@
     <div class="container-fluid">
     <div class="row">
       <div class= "col s12">
-        <div class= "col s3">
+        <div class= "col s4 offset-s1">
           <img class="project-image2" src="images/cityrunner.png" />
         </div>
-        <div class="col s8 offset-s1 project-text">
+        <div class="col s5 offset-s1 project-text">
           <p class="project-title">City Runner</p>
           A web app for runners that generates running loops around them based on the user's current location and desired distance in miles. The app renders 4 maps for the user to choose from and then their data (time and distance) is displayed on a results page when they finish their run. 
         </div>
@@ -92,11 +112,11 @@
     <div class="container-fluid">
     <div class="row">
       <div class= "col s12">
-        <div class="col s8 project-text">
+        <div class="col s5 offset-s1 project-text">
           <p class="project-title">Ecommerce</p>
           This is an ecommerce site made with react and redux. It is a spin-off of a petsmart type site for purchasing food, toys, treats and more online. Functionality includes a secure register and login page, a purcahse button that only appears when a customer is logged in, and a shopping cart page that is connected with stripe so the customer can checkout. 
         </div>
-        <div class= "col s3 offset-s1">
+        <div class= "col s4 offset-s1">
           <img class="project-image3" src="ecommerce.png" />
         </div>
       </div>
@@ -105,174 +125,82 @@
 </div>
 
 
-<div class="container">
+<div id="skills" class="container">
   <div class="row">
   <div id="skills-title" class="col s12 center">Skills</div>
     <div class="col s12">
-      <div class="col s4 center image-border">
+      <div id="react" class="col s4 center image-border">
         <img class="images-icon" src='images/react.png' />
         <p class="icon-image">React/React Native</p>
+        <div id="show-react" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">TrackR</a></div>
       </div>
-      <div class="col s4 center image-border">
+      <div id="node" class="col s4 center image-border">
         <img class="images-icon" src='images/nodejs.png' />
         <p class="icon-image">Node.js</p>
+        <div id="show-node" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">City Runner</a></div>
       </div>
-      <div class="col s4 center right-image-border">
+      <div id="html" class="col s4 center right-image-border">
         <img class="images-icon" src='images/HTML.png' />
         <p class="icon-image">HMTL5</p>
+        <div id="show-html" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">TrackR</a></div>
       </div>
     </div>
     <div class="col s12">
-      <div class="col s4  center image-border">
+      <div id="css" class="col s4  center image-border">
         <img class="images-icon" src='images/CSS3.png' />
         <p class="icon-image">CSS3</p>
+        <div id="show-css" class="show-me"><a href="https://github.com/caseyezimmerman/youtube" target="_blank">Mock Youtube Page</a></div>
       </div>
-      <div class="col s4 center image-border">
+      <div id="py" class="col s4 center image-border">
         <img class="images-icon" src='images/python.png' />
         <p class="icon-image">Python</p>
+        <div id="show-py" class="show-me"><a href="https://github.com/caseyezimmerman/SoccerGame" target="_blank">Soccer Game</a></div>
+        <div id="show-rpg" class="show-me"><a href="https://github.com/caseyezimmerman/RPG-game" target="_blank">RPG Game</a></div>
       </div>
-      <div class="col s4 center right-image-border">
+      <div id="redux" class="col s4 center right-image-border">
         <img class="images-icon" src='images/redux.png' />
         <p class="icon-image">Redux</p>
+        <div id="show-redux" class="show-me"><a href="https://github.com/caseyezimmerman/eCommerce-site" target="_blank">Ecommerce</a></div>
       </div>
     </div>
     <div class="col s12">
-      <div class="col s4 center image-border">
+      <div id="sql" class="col s4 center image-border">
         <img class="images-icon" src='images/mySQL.png' />
         <p class="icon-image">MySQL</p>
+        <div id="show-sql" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">TrackR</a></div>
       </div>
-      <div class="col s4 center image-border">
+      <div id="git" class="col s4 center image-border">
         <img class="images-icon" src='images/githubb.png' />
         <p class="icon-image">Github</p>
+        <!-- <div id="show-git" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">TrackR</a></div> -->
       </div>
-      <div class="col s4 center right-image-border">
+      <div id="js" class="col s4 center right-image-border">
         <img class="images-icon" src='images/javascript.png' />
         <p class="icon-image">JavaScript</p>
+        <div id="show-js" class="show-me"><a href="https://github.com/caseyezimmerman/BlackJack" target="_blank">BlackJack</a></div>
       </div>
     </div>
     <div class="col s12">
-      <div class="col s4 center bottom-image-border">
+      <div id="jquery" class="col s4 center bottom-image-border">
         <img class="images-icon" src='images/jquery.png' />
         <p class="icon-image">jQuery</p>
+        <div id="show-jquery" class="show-me"><a href="https://github.com/caseyezimmerman/memory-game">Memory Game</a></div>
       </div>
-      <div class="col s4 center bottom-image-border">
+      <div id="aws" class="col s4 center bottom-image-border">
         <img class="images-icon" src='images/aws.png' />
         <p class="icon-image">Amazon web services</p>
+        <div id="show-aws" class="show-me">Portfolio (you're here :))</a></div>
       </div>
-      <div class="col s4 center">
+      <div id="express" class="col s4 center">
         <img class="images-icon" src='images/express.png' />
         <p class="icon-image">Express</p>
+        <div id="show-express" class="show-me"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">TrackR</a></div>
       </div>
     </div>
   </div>
 </div>
 
-
-<!-- <div class="container">
-  <div class="col s5 m2">
-    <h2 class="header center"></h2>
-    <div class="col s6 card horizontal pic-wrap">
-      <div class="card-image">
-        <img src="trackr.png">
-      </div>
-      <div class="card-stacked">
-         <div class="card-content">
-          <div class="title">TrackR</div>
-          <div class="git"><a href="https://github.com/caseyezimmerman/TrackR" target="_blank">Github Repository</a>
-          </div>
-          <div class="git">
-            A React Native mobile app that is a spin off of City Runner. This app accesses your current location and tracks the distance, time, and calories of your run. 
-          </div>
-        
-        <div class="card-action">
-         
-        </div>      
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="col s5 m2">
-    <h2 class="header center"></h2>
-    <div class="col s6 card horizontal pic-wrap">
-      <div class="card-image">
-        <img src="images/cityrunner.png">
-      </div>
-      <div class="card-stacked">
-         <div class="card-content">
-          <div class="title">City Runner</div>
-          <div class="git"><a href="https://github.com/caseyezimmerman/cityRunner" target="_blank"  >Github Repository</a>
-          </div>
-          <div class="git">
-            A web app for runners that generates running loops around them based on the user's current location and desired distance in miles. The app renders 4 maps for the user to choose from and then their data (time and distance) is displayed on a results page when they finish their run.
-          </div>
-        
-        <div class="card-action">
-         
-        </div>      
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-<div class="container">
-  <div class="col s12 m2">
-    <h2 class="header center"></h2>
-    <div class="col s6 card horizontal pic-wrap">
-      <div class="card-image">
-        <img src="images/blackjack.png">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <div class="title">BlackJack</div>
-          <div class="git"><a href="https://github.com/caseyezimmerman/BlackJack" target="_blank">  Github Repository</a>
-          </div>
-          <div class="git">
-            A simple BlackJack game using JavaScript that allowed us to fiddle with jQuery and learn more advanced CSS including animations
-          </div>
-        </div>
-        <div class="card-action">
-         
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="col s12 m2">
-    <h2 class="header center"></h2>
-    <div class="col s12 card horizontal pic-wrap">
-      <div class="card-image">
-        <img src="images/pygame.png">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <div class="title">Pygame</div>
-          <div class="git"><a href="https://github.com/caseyezimmerman/SoccerGame" target="_blank"  >Github Repository</a>
-          </div>
-          <div class="git">
-            A soccer game I made using Python that helped us get familiar with object oriented programming. The goal of this game is to get to the soccer ball before your opponent does. The more points you get, the more opponents you will have. You can also throw cups at your opponents to freeze them for 3 seconds.
-          </div>
-        </div>
-        <div class="card-action">
-        
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
- -->
   
-
-
-
 <div class="container-fluid">
 
   <div class="col-sm-12 text-center grey lighten-4" id="contact">
