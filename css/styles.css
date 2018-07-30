@@ -133,9 +133,6 @@ i {
 }
 
 
-
-
-
 #contact{
 	width: 100vw;
 }
@@ -248,11 +245,6 @@ i {
   /* height: 350px; */
 }
 
-.hover-text:hover span.text-content{
-	opacity: 1;
-	/* background-color: black; */
-}
-
 a{
 	margin-top: 0px;
 	text-decoration: none;
@@ -280,13 +272,13 @@ a{
 .text{
 	margin-top: 3px;
 	font-family: "Open Sans Condensed";
-	font-size: 17px;
+	font-size: 16px;
 	overflow: scroll;
 	height: 200px;
 }
 
 #height{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	/* height: 300px; */
 	overflow: scroll;
 }
